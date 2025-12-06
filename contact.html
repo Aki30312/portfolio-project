@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+</head>
+
+<body>
+
+  <!-- HEADER + NAV -->
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- CONTACT FORM -->
+  <section>
+    <h2>Send Me a Message</h2>
+
+    <form action="#" method="post">
+
+      <!-- TEXT INPUT -->
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <!-- NUMBER INPUT -->
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age"><br><br>
+
+      <!-- RADIO BUTTONS -->
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" name="gender" value="female"> Female</label><br>
+        <label><input type="radio" name="gender" value="male"> Male</label><br>
+      </fieldset>
+      <br>
+
+      <!-- CHECKBOX -->
+      <label>
+        <input type="checkbox" id="subscribe"> Subscribe to my channel
+      </label>
+      <br><br>
+
+      <!-- RANGE INPUT -->
+      <label for="satisfaction">Satisfaction (1–10):</label><br>
+      <input type="range" id="satisfaction" min="1" max="10"><br><br>
+
+      <!-- BUTTONS -->
+      <button type="submit">Submit</button>
+      <button type="button" onclick="location.href='index.html'">Cancel</button>
+
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+
+</body>
+</html>
